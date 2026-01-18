@@ -1,6 +1,6 @@
 {
-  "name": "G&G Arquitectos - Diseño y Construcción",
-  "short_name": "GYG Arquitectos",
+  "name": "Apex Dual Arquitectos - Diseño y Construcción",
+  "short_name": "Apex Dual",
   "description": "Estudio de arquitectura especializado en diseño moderno y construcción sostenible",
   "start_url": "/",
   "display": "standalone",
@@ -35,14 +35,14 @@
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "G&G Arquitectos - Vista Desktop"
+      "label": "Apex Dual Arquitectos - Vista Desktop"
     },
     {
       "src": "/screenshot-mobile.png", 
       "sizes": "390x844",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "G&G Arquitectos - Vista Mobile"
+      "label": "Apex Dual Arquitectos - Vista Mobile"
     }
   ]
 }

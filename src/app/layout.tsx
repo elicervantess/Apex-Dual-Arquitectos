@@ -9,8 +9,8 @@ import { DeviceDebugInfo } from "@/components/dev-device-info"
 
 export const metadata: Metadata = {
   title: {
-    default: "G&G Arquitectos - Diseño y Construcción",
-    template: "%s | G&G Arquitectos"
+    default: "Apex Dual Arquitectos - Diseño y Construcción",
+    template: "%s | Apex Dual Arquitectos"
   },
   description: "Estudio de arquitectura especializado en diseño moderno y construcción sostenible. Más de 15 años creando espacios únicos que inspiran y perduran.",
   keywords: [
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     "remodelaciones",
     "diseño de interiores"
   ],
-  authors: [{ name: "G&G Arquitectos" }],
-  creator: "G&G Arquitectos",
-  publisher: "G&G Arquitectos",
+  authors: [{ name: "Apex Dual Arquitectos" }],
+  creator: "Apex Dual Arquitectos",
+  publisher: "Apex Dual Arquitectos",
   formatDetection: {
     email: false,
     address: false,
@@ -42,10 +42,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "G&G Arquitectos - Diseño Arquitectónico Premium",
+    title: "Apex Dual Arquitectos - Diseño Arquitectónico Premium",
     description: "Estudio de arquitectura especializado en proyectos residenciales y comerciales. Creamos espacios únicos que inspiran.",
-    url: "https://gygarquitectos.com",
-    siteName: "G&G Arquitectos",
+    url: "https://apexdualarquitectos.com",
+    siteName: "Apex Dual Arquitectos",
     locale: "es_ES",
     type: "website",
     images: [
@@ -53,21 +53,21 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "G&G Arquitectos - Diseño y Construcción",
+        alt: "Apex Dual Arquitectos - Diseño y Construcción",
       },
       {
         url: "/og-image-square.jpg", 
         width: 1200,
         height: 1200,
-        alt: "G&G Arquitectos - Logo",
+        alt: "Apex Dual Arquitectos - Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "G&G Arquitectos - Diseño Arquitectónico Premium",
+    title: "Apex Dual Arquitectos - Diseño Arquitectónico Premium",
     description: "Estudio de arquitectura especializado en proyectos residenciales y comerciales",
-    creator: "@gygarquitectos",
+    creator: "@apexdualarquitectos",
     images: ["/og-image.jpg"],
   },
   robots: {

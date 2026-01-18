@@ -185,10 +185,10 @@ export function Navbar() {
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center space-x-1">
               <div className="w-8 h-8 bg-gradient-to-br from-white/90 via-white/70 to-white/50 rounded-lg flex items-center justify-center shadow-xl border border-white/30 backdrop-blur-sm">
-                <span className="text-slate-800 font-black text-sm tracking-wide">G</span>
+                <span className="text-slate-800 font-black text-sm tracking-wide">AD</span>
               </div>
               <span className="text-xl font-bold text-white drop-shadow-2xl font-sans tracking-wider ml-0.5 opacity-95 bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent hover:from-blue-100 hover:via-white hover:to-blue-100 transition-all duration-500">
-                GYG Arquitectos
+                Apex Dual Arquitectos
               </span>
             </div>
           </div>
@@ -250,14 +250,14 @@ export function Navbar() {
                 }}
                 transition={{ duration: 0.6, type: "spring", stiffness: 300 }}
               >
-                <span className="text-slate-800 font-black text-base tracking-wider drop-shadow-sm">G</span>
+                <span className="text-slate-800 font-black text-base tracking-wider drop-shadow-sm">AD</span>
               </motion.div>
               <span className={`text-xl font-bold font-sans tracking-wider drop-shadow-2xl ml-2.5 opacity-95 transition-all duration-500 filter hover:brightness-110 ${
                 actualTheme === 'dark'
                   ? 'text-white bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent hover:from-blue-100 hover:via-white hover:to-blue-100'
                   : 'text-gray-900 bg-gradient-to-r from-gray-900 via-blue-900 to-gray-900 bg-clip-text text-transparent hover:from-blue-900 hover:via-gray-900 hover:to-blue-900'
               }`}>
-                GYG Arquitectos
+                Apex Dual Arquitectos
               </span>
             </motion.div>
 

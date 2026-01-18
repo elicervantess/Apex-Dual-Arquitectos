@@ -1192,6 +1192,135 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Footer Profesional con Copyright */}
+      <footer className="bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-950 dark:to-black border-t border-slate-200 dark:border-slate-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          {/* Footer Top */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+            {/* Company Info */}
+            <div className="space-y-4">
+              <div className="flex items-center space-x-2">
+                <div className="w-10 h-10 bg-gradient-to-br from-slate-800 to-slate-600 dark:from-slate-200 dark:to-slate-400 rounded-lg flex items-center justify-center shadow-lg">
+                  <span className="text-white dark:text-slate-900 font-black text-base">AD</span>
+                </div>
+                <span className="text-lg font-bold text-slate-900 dark:text-white">
+                  Apex Dual Arquitectos
+                </span>
+              </div>
+              <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                Creando espacios excepcionales que inspiran y transforman. Diseño arquitectónico de vanguardia con compromiso sostenible.
+              </p>
+              <div className="flex space-x-4">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-slate-200 dark:bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-600 dark:hover:bg-blue-600 hover:scale-110 transition-all duration-300 group">
+                  <Facebook className="w-4 h-4 text-slate-600 dark:text-slate-400 group-hover:text-white" />
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-slate-200 dark:bg-slate-800 rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-purple-600 hover:to-pink-600 hover:scale-110 transition-all duration-300 group">
+                  <Instagram className="w-4 h-4 text-slate-600 dark:text-slate-400 group-hover:text-white" />
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-slate-200 dark:bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-700 dark:hover:bg-blue-700 hover:scale-110 transition-all duration-300 group">
+                  <Linkedin className="w-4 h-4 text-slate-600 dark:text-slate-400 group-hover:text-white" />
+                </a>
+              </div>
+            </div>
+
+            {/* Quick Links */}
+            <div>
+              <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-4 uppercase tracking-wider">
+                Enlaces Rápidos
+              </h3>
+              <ul className="space-y-2">
+                {['Inicio', 'Proyectos', 'Nosotros', 'Servicios'].map((link) => (
+                  <li key={link}>
+                    <a href={`#${link.toLowerCase()}`} className="text-sm text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors duration-200">
+                      {link}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Services */}
+            <div>
+              <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-4 uppercase tracking-wider">
+                Servicios
+              </h3>
+              <ul className="space-y-2">
+                {['Diseño Arquitectónico', 'Construcción', 'Remodelación', 'Consultoría'].map((service) => (
+                  <li key={service}>
+                    <span className="text-sm text-slate-600 dark:text-slate-400">
+                      {service}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Contact Info */}
+            <div>
+              <h3 className="text-sm font-semibold text-slate-900 dark:text-white mb-4 uppercase tracking-wider">
+                Contacto
+              </h3>
+              <ul className="space-y-3">
+                <li className="text-sm text-slate-600 dark:text-slate-400">
+                  <a href="mailto:contacto@apexdualarquitectos.com" className="hover:text-slate-900 dark:hover:text-white transition-colors duration-200">
+                    contacto@apexdualarquitectos.com
+                  </a>
+                </li>
+                <li className="text-sm text-slate-600 dark:text-slate-400">
+                  <a href="tel:+525512345678" className="hover:text-slate-900 dark:hover:text-white transition-colors duration-200">
+                    +52 55 1234 5678
+                  </a>
+                </li>
+                <li className="text-sm text-slate-600 dark:text-slate-400">
+                  Horario: Lun - Vie<br />
+                  9:00 AM - 6:00 PM
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-slate-300 dark:border-slate-800 my-8"></div>
+
+          {/* Footer Bottom - Copyright & Legal */}
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div className="text-center md:text-left">
+              <p className="text-sm text-slate-600 dark:text-slate-400">
+                © {new Date().getFullYear()} <span className="font-semibold text-slate-900 dark:text-white">Apex Dual Arquitectos</span>. Todos los derechos reservados.
+              </p>
+              <p className="text-xs text-slate-500 dark:text-slate-500 mt-1">
+                Diseño, logotipos y contenido protegidos por derechos de autor y leyes de propiedad intelectual.
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center md:justify-end gap-4 text-xs text-slate-600 dark:text-slate-400">
+              <a href="/privacidad" className="hover:text-slate-900 dark:hover:text-white transition-colors duration-200">
+                Política de Privacidad
+              </a>
+              <span className="text-slate-400 dark:text-slate-600">•</span>
+              <a href="/terminos" className="hover:text-slate-900 dark:hover:text-white transition-colors duration-200">
+                Términos de Servicio
+              </a>
+              <span className="text-slate-400 dark:text-slate-600">•</span>
+              <a href="/cookies" className="hover:text-slate-900 dark:hover:text-white transition-colors duration-200">
+                Política de Cookies
+              </a>
+              <span className="text-slate-400 dark:text-slate-600">•</span>
+              <a href="/aviso-legal" className="hover:text-slate-900 dark:hover:text-white transition-colors duration-200">
+                Aviso Legal
+              </a>
+            </div>
+          </div>
+
+          {/* Additional Legal Info */}
+          <div className="mt-6 pt-6 border-t border-slate-200 dark:border-slate-800">
+            <p className="text-xs text-slate-500 dark:text-slate-500 text-center leading-relaxed">
+              Apex Dual Arquitectos es una marca registrada. Todos los proyectos, diseños y materiales mostrados son propiedad de Apex Dual Arquitectos 
+              y están protegidos por las leyes de derechos de autor internacionales. Queda prohibida la reproducción total o parcial sin autorización expresa.
+            </p>
+          </div>
+        </div>
+      </footer>
       </div>
   )
 }
